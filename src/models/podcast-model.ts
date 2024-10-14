@@ -1,5 +1,5 @@
 export interface PodcastModel {
-  podcast: string;
+  podcastName: string;
   episode: string;
   video: string;
   categories: string[];

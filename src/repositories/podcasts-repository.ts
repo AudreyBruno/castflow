@@ -12,7 +12,7 @@ export const repositoryPodcasts = async (
 
   if (podcastName) {
     jsonFile = jsonFile.filter(
-      (podcast: PodcastModel) => podcast.podcast === podcastName
+      (podcast: PodcastModel) => podcast.podcastName === podcastName
     );
   }
 
