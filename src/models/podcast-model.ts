@@ -1,4 +1,4 @@
-export interface Podcast {
+export interface PodcastModel {
   podcast: string;
   episode: string;
   video: string;
